@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_title"
+            android:textSize="30dp"
+            android:background="@color/colorGreen"
+            android:textColor="@color/colorRed"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signin"
+            android:textColor="@color/colorWhite"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/username"
+            />
+        <EditText
+            android:id="@+id/userNameEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+
+            android:background="@color/colorWhite"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/password"
+
+            />
+        <EditText
+            android:id="@+id/passWordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20dp"
+            android:background="@color/colorWhite"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:onClick="loginButton"
+            android:textSize="20dp"
+            android:textColor="@color/colorRed"
+            android:background="@color/colorGreen"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/account"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="newAccountTextView"
+            android:text="@string/register"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlue"
+            />
+    </LinearLayout>
+</LinearLayout>
