@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Mobile-Shop-App</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="account">You do not have account?</string>
+    <string name="register">Click here to create new account.</string>
+    <string name="text_title">Login Page</string>
+    <string name="signin">SIGN IN</string>
 </resources>
